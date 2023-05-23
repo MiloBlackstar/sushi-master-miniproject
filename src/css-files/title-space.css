@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  height: auto;
+  background-image: url('../images/sushiSmall.jpg');
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: 60%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 1.5em 1.5em;
+}
+
+.top-description {
+  border-top: 0.4em solid #FFBF00;
+  color: #FFBF00;
+  font-weight: bold;
+}
+
+header h1 {
+  margin: 1.25em 0em;
+  text-align: center;
+  font-weight: bold;
+  color: 	white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5em;
+}
+
+header h1 span {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #F4BB44;
+}
+
+.sub-description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFBF00;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.25em;
+}
