@@ -4,7 +4,7 @@ import Body from './components/Body.jsx'
 
 export default function App() {
   return (
-    <div className="Page">
+    <div className="page">
       <TitleSpace />
       <Body />
     </div>

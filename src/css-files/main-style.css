@@ -9,3 +9,10 @@ body {
   line-height: 1.5;
   background-color: #fdfdfd;
 }
+
+@media (min-width: 850px) {
+  .page {
+    display: flex;
+    height: 100vh;
+  }
+}

@@ -35,10 +35,29 @@ header h1 span {
   color: #F4BB44;
 }
 
+header div {
+  margin: 0 auto;
+}
+
 .sub-description {
   font-size: 1.2rem;
   font-weight: bold;
   color: #FFBF00;
+  text-align: center;
+}
+
+.sub-description span {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.25em;
+  padding: .75em 1em;
+}
+
+@media (min-width: 850px) {
+  header {
+    background-image: url('../images/sushiLarge.jpg');
+    justify-content: flex-start;
+  }
+
+  header div {
+    margin: auto auto;
+  }
 }

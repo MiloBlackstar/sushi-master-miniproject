@@ -3,7 +3,7 @@ export default function Body() {
     <main>
       <h2>Become a <span>Sushi</span> master!</h2>
       <p className="register-sub">Register Today</p>
-      <p>Sushi <strong>isn't</strong> just a <strong>food</strong>! It's an art that takes time and practice. With us you'll learn this art under the eye of the best sushi masters you can find on earth!</p>
+      <p>Sushi <strong>is not</strong> just a <strong>food</strong>! It is an art that takes time and practice. With us you will learn this art under the eye of the best sushi masters there is on earth! Do not hesitate and join our webinar for free!</p>
       <div>
         <form>
           <input type="text" name="firstName" id="firstName" required placeholder="First name"/>
