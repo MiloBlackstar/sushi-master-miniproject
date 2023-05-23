@@ -5,7 +5,7 @@ header {
   background-size: cover;
   background-position-x: 40%;
   background-position-y: 60%;
-  color: white;
+  color: #fdfdfd;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@ header h1 {
   margin: 1.25em 0em;
   text-align: center;
   font-weight: bold;
-  color: 	white;
+  color: 	#fdfdfd;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1.5em;
 }

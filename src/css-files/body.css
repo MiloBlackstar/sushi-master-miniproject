@@ -1,0 +1,70 @@
+main h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 1em 1em .25em;
+}
+
+h2 span {
+  text-transform: uppercase;
+  color: #F4BB44;
+}
+
+.register-sub {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #F4BB44;
+  font-weight: bold;
+}
+
+main p {
+  margin: 1em auto;
+  text-align: center;
+  width: 80%;
+}
+
+main div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-size: 1.2rem;
+  background-color: rgba(235, 235, 235, 0.75);
+  border: none;
+  margin: 0.25em;
+  padding: 0.5em 0.5em;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid black;
+  text-indent: 0.25em;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+button {
+  margin-top: 1em;
+  padding: .75em;
+  border: none;
+  background-color: #F4BB44;
+  font-size: 1.2rem;
+  color: #fdfdfd;
+  font-weight: bold;
+}
+
+button:hover,
+button:focus {
+  background-color: #F4BB44;
+  opacity: 0.85;
+  outline: none;
+}
+
+.close-note {
+  color:rgba(70, 70, 70, 0.7)
+}
